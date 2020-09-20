@@ -1,0 +1,114 @@
+
+.carousel-item {
+  height: 100vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.carousel-caption {
+  bottom: 270px;
+}
+.carousel-caption {
+  bottom: 270px;
+}
+
+.carousel-caption h5 {
+	width:80%;
+  font-size: 55px;
+  text-align:center;
+  letter-spacing: 2px;
+  margin-top: -20rem;
+  font-family:marienda;
+  margin-left:0px;
+  padding-left:0px;
+  padding-right:250px;
+  
+}
+
+.carousel-caption p {
+  width: 80%;
+  margin-top: 0rem;
+  font-size: 25px;
+  line-height: 1.9;
+  font-family:poppins;
+}
+.carousel-caption a{
+  text-transform:upperrcase;
+  background:#9ACD32;
+  padding:10px 40px;
+  
+   display:inline-block;
+}
+
+.navbar-light .navbar-brand {
+  color: #fff;
+  font-size: 15px;
+ /* text-transform: uppercase;*/
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+                                             /* NAVEBAR*/      
+
+							 
+#t-d{
+	width: 900px;
+	margin: 0px auto;
+	
+}
+
+ .sub-menu-1{
+	
+	 display:none;
+ }
+#t-d ul li:hover .sub-menu-1{
+	 display:block;
+	 position:absolute;
+	 background:black;
+	 margin-top:15px;
+	 margin-left:15px;
+ }
+ 
+ #t-d ul li:hover .sub-menu-1 ul{
+	 display:block;
+ }
+ #t-d ul li:hover .sub-menu-1 ul li{
+	 width:150px;
+	 padding:10px;
+	 
+	 background:transparent;
+	 border-radius:0;
+	 text-align:left;
+ }
+ 
+  .fa-angle-right{
+	 float:right;
+ }
+ .sub-menu-2{
+	 display:none;
+ }
+ .hover-me:hover .sub-menu-2{
+	 position:absolute;
+	 display:block;
+	 margin-top:-40px;
+	 margin-left:140px;
+	 background:black;
+ }
+ .hover-me ul li:hover .sub-menu-2 ul{
+	 display:block;
+ }
+#holder ul li:hover .sub-menu-2 ul li{
+	 width:150px;
+	 padding:10px;
+	 border-bottom:1px dotted #fff;
+	 background:transparent;
+	 border-radius:0;
+	 text-align:left;
+ }
+ #t-d ul li a:hover span, .using > li:hover > a > span{
+	border-bottom: 2px solid #FF6E00;
+	transition: 0.1s;
+}

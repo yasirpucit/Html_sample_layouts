@@ -1,0 +1,11 @@
+
+@font-face {
+  font-family: '../assets/fonts/SonySketchEF/SonySketchEF';
+  src: url('../assets/fonts/SonySketchEF/SonySketchEF.eot?#iefix') format('embedded-opentype'),  
+  url('../assets/fonts/SonySketchEF/SonySketchEF.woff') format('woff'), 
+  url('../assets/fonts/SonySketchEF/SonySketchEF.ttf')  format('truetype'), 
+  url('../assets/fonts/SonySketchEF/SonySketchEF.svg#SonySketchEF') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
